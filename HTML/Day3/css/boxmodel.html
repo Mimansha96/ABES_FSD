@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+       /*div{
+        margin: 24px;
+        padding: 15px;
+        background-color: yellow;
+        border: 2px solid brown;
+        /*
+        border-width: 2px;
+        border-style: solid;
+        border-color: brown;
+    }*/
+       
+       .b-a{
+        width: 400px;
+       /* margin-left: auto;
+        margin-right:auto;*/
+        margin-top:10px;
+        margin-bottom: 20px;
+        padding: 24px;
+        background-color: yellow;
+        border: 2px solid brown;
+
+       }
+       
+    </style>
+</head>
+<body>
+   <!-- <div>hello world !</div>
+    <div>hello world !</div>
+    <p>hello</p>
+    <p>hello</p>-->
+
+     <!--
+     *{
+            padding: 0;
+            margin: 0;
+        }
+     body , p{
+            margin: 0;
+        }-->
+<div class="b-a" style="box-sizing: content-box;">Hello world</div>
+<div class="b-a" style="box-sizing: border-box;">Hello world</div>
+
+<br><br>
+<span class="b-a">Hello world</span>
+
+    </body>
+
+</html>
